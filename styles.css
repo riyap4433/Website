@@ -1,0 +1,120 @@
+/*CSS styles for the header section*/
+header {
+    padding-right: 25%;
+    margin-top: 0.2em;
+    background-color: aqua;
+    border-radius: 0.5em; 
+    text-align: left;
+}
+
+
+/*CSS style for the heading*/
+  h4{
+    padding-left: 15%;
+  }
+
+
+  /*CSS style for the navigation section*/
+  nav {
+    background-color:none;
+           color: #fff;
+           padding: 10px;
+       }
+       /*styles for the unordered list*/
+
+       nav ul {
+           list-style: none;
+           padding: 30;
+           margin: 0;
+       }
+
+       /*styles for the list*/
+       nav ul li {
+           display: inline;
+           margin-right: 100px;
+       }
+
+
+/*styles for the class named column*/       
+.column p {
+  float: left;
+  width: 40%;
+  padding-left: 50px;
+  font-family: Times New Roman;
+  font-weight: lighter;
+}
+
+/*styles for the class named img*/
+.img {
+  max-width : 30%;
+        height:auto;
+        float:left;
+        padding-left :px;
+}
+
+/*styles for the aside tag*/
+
+aside {
+    width:20%;
+    padding-left: 20px;
+    margin-left: 15px;
+    margin-top: -12%;
+    float:right;
+}
+
+/*styles for the unordered list of the aside tag*/
+aside ul{
+  text-align:justify;
+  
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*styles for he h2 heading*/
+
+h2{
+  padding-left: 60px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+
+/*styles for the unordered list of the aside tag*/
+aside ul{
+  text-align: center;
+  
+  font-size: larger;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*styles for the img tag*/
+img {
+  max-width : 28%;
+  height:auto;
+  float:left;
+  padding-left :10px;
+  
+}  
+
+/*styles for he h3 heading*/
+h3{
+  padding-left:28px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+/*styles for the footer section foe the class named footer*/
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightgreen;
+    color: black;
+    text-align: center;
+}
+
+/*styles for making the website responsive*/
+@media only screen and (min-width: 700px) {}
